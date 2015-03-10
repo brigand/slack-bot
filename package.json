@@ -10,10 +10,9 @@
     "babel": "^4.7.8"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "SLACK_TOKEN=xoxb-3986284148-gcBbbNovqqZLVf3FfYHRiasp node bot.js",
-    "build": "babel index.js > bot.js"
-
+    "build": "babel index.js > bot.js",
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"
