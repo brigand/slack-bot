@@ -9,6 +9,7 @@ RUN apk-install -t build-deps build-base python \
   && npm install \
   && npm run build \
   && npm cache clean \
-  && apk del --purge build-deps
+  && apk del --purge build-deps \
+  && rm -rf node_modules/babel node_modules/.bin
 
 CMD ["npm", "start"]
