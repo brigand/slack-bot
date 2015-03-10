@@ -11,6 +11,8 @@
     "babel": "^4.7.8"
   },
   "scripts": {
+    "build": "babel index.js > bot.js",
+    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

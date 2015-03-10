@@ -50,4 +50,3 @@ function sendToSlack(username, text, channel, cb){
         cb(null);
    });
 }
-
